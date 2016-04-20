@@ -54,16 +54,6 @@ class UnitTests: XCTestCase {
         XCTAssert(ted.description == "[Person: firstName:Ted lastName:Neward age:45 job:Dancer @ 10000 a year spouse:nil]")
     }
     
-    func testFamilyCustomStringConvertible() {
-        let ted = Person(firstName: "Ted", lastName: "Neward", age: 45)
-        ted.job = Job(title: "Guest Lecturer", type: Job.JobType.Salary(1000))
-        
-        let charlotte = Person(firstName: "Charlotte", lastName: "Neward", age: 45)
-        
-        let family = Family(spouse1: ted, spouse2: charlotte)
-        
-        print(family.description)
-    }
     
     func testDoubleUSDTest() {
         XCTAssert(4.0.USD.description == "4USD")
