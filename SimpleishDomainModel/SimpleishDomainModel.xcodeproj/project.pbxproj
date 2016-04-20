@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D6411F11CC6E62D0080CE32 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6411F01CC6E62D0080CE32 /* main.swift */; };
+		9D6412241CC6F1A20080CE32 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6411F01CC6E62D0080CE32 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D6411EB1CC6E62D0080CE32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D6411ED1CC6E62D0080CE32 /* SimpleishDomainModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleishDomainModel; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6411F01CC6E62D0080CE32 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9D6411FB1CC6E6670080CE32 /* SimpleishDomainModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleishDomainModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6412081CC6E6CE0080CE32 /* SimpleishMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleishMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6412171CC6ECAD0080CE32 /* testCustomStringConvertible.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCustomStringConvertible.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6412231CC6F19A0080CE32 /* SimpleishMoneyTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SimpleishMoneyTests; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D6411EA1CC6E62D0080CE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6411F81CC6E6670080CE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6412051CC6E6CE0080CE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6412141CC6ECAD0080CE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D6411E41CC6E62D0080CE32 = {
+			isa = PBXGroup;
+			children = (
+				9D6412231CC6F19A0080CE32 /* SimpleishMoneyTests */,
+				9D6411EF1CC6E62D0080CE32 /* SimpleishDomainModel */,
+				9D6411EE1CC6E62D0080CE32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D6411EE1CC6E62D0080CE32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D6411ED1CC6E62D0080CE32 /* SimpleishDomainModel */,
+				9D6411FB1CC6E6670080CE32 /* SimpleishDomainModelTests.xctest */,
+				9D6412081CC6E6CE0080CE32 /* SimpleishMoneyTests.xctest */,
+				9D6412171CC6ECAD0080CE32 /* testCustomStringConvertible.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D6411EF1CC6E62D0080CE32 /* SimpleishDomainModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D6411F01CC6E62D0080CE32 /* main.swift */,
+			);
+			path = SimpleishDomainModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D6411EC1CC6E62D0080CE32 /* SimpleishDomainModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6411F41CC6E62D0080CE32 /* Build configuration list for PBXNativeTarget "SimpleishDomainModel" */;
+			buildPhases = (
+				9D6411E91CC6E62D0080CE32 /* Sources */,
+				9D6411EA1CC6E62D0080CE32 /* Frameworks */,
+				9D6411EB1CC6E62D0080CE32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleishDomainModel;
+			productName = SimpleishDomainModel;
+			productReference = 9D6411ED1CC6E62D0080CE32 /* SimpleishDomainModel */;
+			productType = "com.apple.product-type.tool";
+		};
+		9D6411FA1CC6E6670080CE32 /* SimpleishDomainModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D6412001CC6E6670080CE32 /* Build configuration list for PBXNativeTarget "SimpleishDomainModelTests" */;
+			buildPhases = (
+				9D6411F71CC6E6670080CE32 /* Sources */,
+				9D6411F81CC6E6670080CE32 /* Frameworks */,
+				9D6411F91CC6E6670080CE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleishDomainModelTests;
+			productName = SimpleishDomainModelTests;
+			productReference = 9D6411FB1CC6E6670080CE32 /* SimpleishDomainModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D6412071CC6E6CE0080CE32 /* SimpleishMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D64120D1CC6E6CE0080CE32 /* Build configuration list for PBXNativeTarget "SimpleishMoneyTests" */;
+			buildPhases = (
+				9D6412041CC6E6CE0080CE32 /* Sources */,
+				9D6412051CC6E6CE0080CE32 /* Frameworks */,
+				9D6412061CC6E6CE0080CE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleishMoneyTests;
+			productName = SimpleishMoneyTests;
+			productReference = 9D6412081CC6E6CE0080CE32 /* SimpleishMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D6412161CC6ECAD0080CE32 /* testCustomStringConvertible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D64121C1CC6ECAD0080CE32 /* Build configuration list for PBXNativeTarget "testCustomStringConvertible" */;
+			buildPhases = (
+				9D6412131CC6ECAD0080CE32 /* Sources */,
+				9D6412141CC6ECAD0080CE32 /* Frameworks */,
+				9D6412151CC6ECAD0080CE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testCustomStringConvertible;
+			productName = testCustomStringConvertible;
+			productReference = 9D6412171CC6ECAD0080CE32 /* testCustomStringConvertible.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D6411E51CC6E62D0080CE32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tanner;
+				TargetAttributes = {
+					9D6411EC1CC6E62D0080CE32 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9D6411FA1CC6E6670080CE32 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9D6412071CC6E6CE0080CE32 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9D6412161CC6ECAD0080CE32 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9D6411E81CC6E62D0080CE32 /* Build configuration list for PBXProject "SimpleishDomainModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D6411E41CC6E62D0080CE32;
+			productRefGroup = 9D6411EE1CC6E62D0080CE32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D6411EC1CC6E62D0080CE32 /* SimpleishDomainModel */,
+				9D6411FA1CC6E6670080CE32 /* SimpleishDomainModelTests */,
+				9D6412071CC6E6CE0080CE32 /* SimpleishMoneyTests */,
+				9D6412161CC6ECAD0080CE32 /* testCustomStringConvertible */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D6411F91CC6E6670080CE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6412061CC6E6CE0080CE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6412151CC6ECAD0080CE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D6411E91CC6E62D0080CE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6411F11CC6E62D0080CE32 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6411F71CC6E6670080CE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6412041CC6E6CE0080CE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6412241CC6F1A20080CE32 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6412131CC6ECAD0080CE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9D6411F21CC6E62D0080CE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D6411F31CC6E62D0080CE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9D6411F51CC6E62D0080CE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D6411F61CC6E62D0080CE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D6412011CC6E6670080CE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleishDomainModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tanner.SimpleishDomainModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D6412021CC6E6670080CE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleishDomainModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tanner.SimpleishDomainModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D64120E1CC6E6CE0080CE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleishMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tanner.SimpleishMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D64120F1CC6E6CE0080CE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleishMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tanner.SimpleishMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D64121D1CC6ECAD0080CE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = testCustomStringConvertible/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tanner.testCustomStringConvertible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D64121E1CC6ECAD0080CE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = testCustomStringConvertible/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tanner.testCustomStringConvertible;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D6411E81CC6E62D0080CE32 /* Build configuration list for PBXProject "SimpleishDomainModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6411F21CC6E62D0080CE32 /* Debug */,
+				9D6411F31CC6E62D0080CE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D6411F41CC6E62D0080CE32 /* Build configuration list for PBXNativeTarget "SimpleishDomainModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6411F51CC6E62D0080CE32 /* Debug */,
+				9D6411F61CC6E62D0080CE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D6412001CC6E6670080CE32 /* Build configuration list for PBXNativeTarget "SimpleishDomainModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6412011CC6E6670080CE32 /* Debug */,
+				9D6412021CC6E6670080CE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D64120D1CC6E6CE0080CE32 /* Build configuration list for PBXNativeTarget "SimpleishMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D64120E1CC6E6CE0080CE32 /* Debug */,
+				9D64120F1CC6E6CE0080CE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D64121C1CC6ECAD0080CE32 /* Build configuration list for PBXNativeTarget "testCustomStringConvertible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D64121D1CC6ECAD0080CE32 /* Debug */,
+				9D64121E1CC6ECAD0080CE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D6411E51CC6E62D0080CE32 /* Project object */;
+}
